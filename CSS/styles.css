@@ -1,5 +1,22 @@
+body {
+	background-color: #F6F8F9;
+}
+
+.wrapper {
+	background-color: #F6F8F9;
+	z-index: 2;
+	padding: 10px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
 .logo {
 	display: inline-block;
+	margin-top: 18px;
+	margin-right: 92px;
+	margin-left: 20px;
 }
 
 .navigation {
@@ -8,4 +25,49 @@
 
 .nav-li {
 	display: inline-block;
+	margin-right: 20px;
+}
+
+.container-block {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.left-block {
+	display: inline-block;
+	width: 760px;
+	vertical-align: top;
+	margin-right: 40px;
+}
+
+.right-block {
+	display: inline-block;
+	width: 360px;
+	vertical-align: top;
+}
+
+.image-left1 {
+	margin-top: 118px;
+	margin-bottom: 40px;
+}
+
+.image-middle {
+	margin-top: 102px;
+	margin-bottom: 102px;
+}
+
+.footer-bg {
+	background-color: #A6ADB4;
+	padding-top: 56px;
+	padding-bottom: 60px;
+}
+
+.block1,
+.block2,
+.block3,
+.block4,
+.block5,
+.block6 {
+	display: inline-block;
+	vertical-align: top;
 }
