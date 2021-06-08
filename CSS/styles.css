@@ -17,6 +17,7 @@ body {
 	margin-top: 18px;
 	margin-right: 92px;
 	margin-left: 20px;
+	font-family: 'Helvetica';
 }
 
 .navigation {
@@ -70,4 +71,5 @@ body {
 .block6 {
 	display: inline-block;
 	vertical-align: top;
+	width: 1160px;
 }
