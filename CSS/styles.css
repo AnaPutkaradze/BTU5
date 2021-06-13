@@ -40,6 +40,8 @@ body {
 .container-block {
 	width: 1160px;
 	margin: 0 auto;
+	vertical-align: middle;
+
 }
 
 .section{
@@ -85,12 +87,25 @@ body {
 }
 
 .margin{
-	margin-right: 40px;
+	margin-right: 20px;
 }
 
 .position{
 	position: relative;
 	width: 360px;
+}
+
+.top1 {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.top2 {
+	display: inline-block;
+}
+
+.top3 {
+	display: inline-block;
 }
 
 .left-block {
