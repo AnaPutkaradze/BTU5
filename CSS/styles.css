@@ -29,9 +29,68 @@ body {
 	margin-right: 20px;
 }
 
+.nav-a{
+	font-size: 11px;
+	color:#707070;
+	text-transform: uppercase;
+	font-family:'Helvetica';
+	font-weight: bold;
+}
+
 .container-block {
 	width: 1160px;
 	margin: 0 auto;
+}
+
+.section{
+	padding-top: 50px;
+	margin-top: 56px;
+}
+
+.title{
+	text-transform: uppercase;
+	font: 24px bold;
+	font-family: 'Helvetica';
+	margin-bottom: 15px;
+}
+
+.div{
+	background-color: white;
+	vertical-align: top;
+	width: 360px;
+}
+
+.paragraph {
+	text-transform: inherit;
+	font-family: 'Roboto';
+	margin-top: 60px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.time{
+	margin: 10px 150px 40px 40px;
+}
+
+.span{
+	font-family: 'Roboto';
+	text-transform: lowercase;
+	color: #A6ADB4;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.clock{
+	vertical-align: middle;
+}
+
+.margin{
+	margin-right: 40px;
+}
+
+.position{
+	position: relative;
+	width: 360px;
 }
 
 .left-block {
@@ -41,10 +100,20 @@ body {
 	margin-right: 40px;
 }
 
+.h2{
+	position: absolute;
+	top: 30px;
+	left: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: 'Helvetica';
+}
+
 .right-block {
 	display: inline-block;
 	width: 360px;
 	vertical-align: top;
+	margin-top: 118px;
 }
 
 .image-left1 {
@@ -52,10 +121,24 @@ body {
 	margin-bottom: 40px;
 }
 
+.image-left2 {
+	margin-bottom: 37px;
+}
+
 .image-middle {
 	margin-top: 102px;
 	margin-bottom: 102px;
 }
+
+.title2{
+	text-transform: uppercase;
+	font: 24px bold;
+	font-family: 'Helvetica';
+	margin: 40px 0px 22px;
+}
+
+/*end second section*/
+/*start footer*/
 
 .footer-bg {
 	background-color: #A6ADB4;
@@ -69,7 +152,33 @@ body {
 .block4,
 .block5,
 .block6 {
+	text-transform: capitalize;
+	line-height: 1.6;
 	display: inline-block;
+	color: white;
+	font-size: 13px;
 	vertical-align: top;
-	width: 1160px;
+	margin-top: 60px;
+}
+
+.block2,
+.block3,
+.block4,
+.block5{
+	font-family: 'Helvetica';
+	color: white;
+}
+
+.block2 {
+	margin-left: 90px;
+	margin-right: 96px;
+}
+
+.block4 {
+	margin-left: 110px;
+	margin-right: 105px;
+}
+
+.block5 {
+	margin-right: 99px;
 }
